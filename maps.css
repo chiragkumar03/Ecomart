@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-icon{
+    width: 60px;
+    margin-left: 20px;
+    display: none;
+}
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top:70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+.svg{
+    justify-content: space-between;
+}
+.svg-align{
+    margin-top: 10px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    box-shadow: 5px 2px 15px #D1D0CE;
+    width: 100%;
+}
+.dropdown {
+    display: inline-block;
+    right: 50%;
+
+}
+.text{
+    width: 40px;
+    background: border-box ;
+    margin-top: 1rem;
+}
+.dropbtn {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.dropbtn::after {
+    font-size: 15px;
+    margin-left: 5px;
+    content: "\25BC";
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #D1D0CE;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 22px;
+}
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+        .container1
+        {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        h1{
+            color: black;
+            margin-bottom: 60px;
+            font-size: 50px;
+            text-align: center;
+            text-decoration: underline;
+        }
+        iframe{
+            width: 90%;
+            margin-left: 5rem;
+            height: 500px;
+            filter: invert(100%);
+        }
+        .cover1{
+    height: 70vh;
+}
+.down1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.images1{
+    margin-left: 15rem;
+    margin-top: 20px;
+    width: 10%;
+    height: 10%;
+}
+.country{
+    background-color: transparent;
+    border:1px solid black;
+    margin-top: 20px;
+    border-radius: 0.6rem;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid rgb(181, 181, 181);
+}
+.align1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-right: 15rem;
+}
+.containers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+.container4 ul {
+    list-style: none;
+    line-height: 2.1rem;
+    color: rgb(105, 105, 105);
+    margin: 0.5rem 0px;
+}
+.container4 ul :hover{
+    cursor: pointer;
+    color: #1c1c1c;
+}
+.fa {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px 2px;
+    text-decoration: none;
+    border-radius: 100%;
+    text-align: center;
+}   
+.fa-facebook {
+    background: white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-facebook:hover{
+    transform: scale(1.2);
+}
+
+.fa-linkedin {
+    background:  white;
+    color:  black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-linkedin:hover{
+    transform: scale(1.2);
+}
+.fa-youtube {
+    background:  white;
+    color: black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}   
+.fa-youtube:hover{
+    transform: scale(1.2);
+} 
+.fa-instagram {
+    background:  white;
+    color:  black;
+    width: 15px;
+    height: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+.footer-copyright {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-top: 1px solid #cfcfcf;
+    color: rgb(105, 105, 105);
+    text-align: center;
+}

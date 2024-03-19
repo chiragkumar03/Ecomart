@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>ecomart</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo"><img src="images/Shop Smart, Shop Easy.png" width="120px" alt=""></div>
+        <div class="icons">
+            <nav>
+                <ul>
+                    <a href="index.html" style="color: black; text-decoration: none;"><li>Home</li></a>
+                    <div class="dropdown">
+                        <li><a href="" class="dropbtn">Mobile</a></li>
+                        <div class="dropdown-content">
+                            <a href="">iPhone</a>
+                            <a href="">Samsung</a>
+                            <a href="">Oppo</a>
+                            <a href="">Vivo</a>
+                        </div>
+                    </div>
+                    <a href="#categories" style="color: black; text-decoration: none;"><li>All Collection</li></a>
+                    <div class="dropdown">
+                        <li><a href="" class="dropbtn">New Arrival</a></li>
+                        <div class="dropdown-content">
+                            <a href="">Laptops</a>
+                            <a href="">Mobiles</a>
+                            <a href="">Tablets</a>
+                            <a href="">Other items</a>
+                        </div>
+                    </div>
+                    <li>Offer</li>
+                    <a href="contact.html" style="color: black; text-decoration: none;"><li>Contact</li></a>
+                </ul>
+            </nav>
+        </div>
+        <div class="svg">
+            <a href="maps.html">
+                <svg class="text" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M16.5 6H3V17.25H3.375H4.5H4.52658C4.70854 18.5221 5.80257 19.5 7.125 19.5C8.44743 19.5 9.54146 18.5221 9.72342 17.25H15.0266C15.2085 18.5221 16.3026 19.5 17.625 19.5C18.9474 19.5 20.0415 18.5221 20.2234 17.25H21.75V12.4393L18.3107 9H16.5V6ZM16.5 10.5V14.5026C16.841 14.3406 17.2224 14.25 17.625 14.25C18.6721 14.25 19.5761 14.8631 19.9974 15.75H20.25V13.0607L17.6893 10.5H16.5ZM15 15.75V9V7.5H4.5V15.75H4.75261C5.17391 14.8631 6.07785 14.25 7.125 14.25C8.17215 14.25 9.07609 14.8631 9.49739 15.75H15ZM17.625 18C17.0037 18 16.5 17.4963 16.5 16.875C16.5 16.2537 17.0037 15.75 17.625 15.75C18.2463 15.75 18.75 16.2537 18.75 16.875C18.75 17.4963 18.2463 18 17.625 18ZM8.25 16.875C8.25 17.4963 7.74632 18 7.125 18C6.50368 18 6 17.4963 6 16.875C6 16.2537 6.50368 15.75 7.125 15.75C7.74632 15.75 8.25 16.2537 8.25 16.875Z"
+                        fill="#080341" />
+                </svg>
+           </a>
+           <img src="https://icon-library.com/images/hamburger-menu-icon-svg/hamburger-menu-icon-svg-8.jpg" alt="" class="menu-icon">
+        </div>
+    </div>
+    <div class="align">
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search...">
+            <button class="search-button">
+                Search
+            </button>
+        </div>
+
+        <div class="svg">
+            <div class="svg-align">
+                <a href="signup.html">
+                    <svg class="text-muted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path
+                            d="M9 13.75c-2.34 0-7 1.17-7 3.5V19h14v-1.75c0-2.33-4.66-3.5-7-3.5zM4.34 17c.84-.58 2.87-1.25 4.66-1.25s3.82.67 4.66 1.25H4.34zM9 12c1.93 0 3.5-1.57 3.5-3.5S10.93 5 9 5 5.5 6.57 5.5 8.5 7.07 12 9 12zm0-5c.83 0 1.5.67 1.5 1.5S9.83 10 9 10s-1.5-.67-1.5-1.5S8.17 7 9 7zm7.04 6.81c1.16.84 1.96 1.96 1.96 3.44V19h4v-1.75c0-2.02-3.5-3.17-5.96-3.44zM15 12c1.93 0 3.5-1.57 3.5-3.5S16.93 5 15 5c-.54 0-1.04.13-1.5.35.63.89 1 1.98 1 3.15s-.37 2.26-1 3.15c.46.22.96.35 1.5.35z" />
+                    </svg>
+                </a>
+                <a href="cart.html">
+                    <svg fill="#000000" class="text-muted" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" id="cart-icon">
+                        <path
+                            d="M31.739 8.875c-0.186-0.264-0.489-0.422-0.812-0.422h-21.223l-1.607-5.54c-0.63-2.182-2.127-2.417-2.741-2.417h-4.284c-0.549 0-0.993 0.445-0.993 0.993s0.445 0.993 0.993 0.993h4.283c0.136 0 0.549 0 0.831 0.974l5.527 20.311c0.12 0.428 0.511 0.724 0.956 0.724h13.499c0.419 0 0.793-0.262 0.934-0.657l4.758-14.053c0.11-0.304 0.064-0.643-0.122-0.907zM25.47 22.506h-12.046l-3.161-12.066h19.253zM23.5 26.504c-1.381 0-2.5 1.119-2.5 2.5s1.119 2.5 2.5 2.5 2.5-1.119 2.5-2.5c0-1.381-1.119-2.5-2.5-2.5zM14.5 26.504c-1.381 0-2.5 1.119-2.5 2.5s1.119 2.5 2.5 2.5 2.5-1.119 2.5-2.5c0-1.381-1.119-2.5-2.5-2.5z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <div class="slide first">
+                <img src="images/slider 1 img.jpg"
+                    alt="">
+            </div>
+            <div class="slide">
+                <img src="images/slider 2 img.jpg"
+                    alt="">
+            </div>
+            <div class="slide">
+                <img src="https://www.reliancedigital.in/medias/Audio-Accessories-Main-Banner.jpg?context=bWFzdGVyfGltYWdlc3wxODU5NDh8aW1hZ2UvanBlZ3xpbWFnZXMvaDcyL2gwMS85NDczODI4OTc4NzE4LmpwZ3w1YjY4OGZlY2M3NTczZTJkZmM2MTIwYjM3ODUzNjk5ZDg3MTE0MDMyMjJmZTc2NmM2ZGVmMDlkNTAyMGNiZTkx"
+                    alt="">
+            </div>
+            <div class="slide">
+                <img src="images/slider 4 img.jpg" alt="">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <div class="heading" id="categories">
+        <h1>Accessories For Men and Women</h1>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 20rem;">
+            <img src="images/white00.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Pixel 7a 5G(Sea, 8GB,128GB Storage)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 39,990</h1>
+                <button class="button"  onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/iphone15.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Apple iPhone 15 Pro Max (256 GB)-Purple</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 1,48,990</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/oppo-reno-10-pro.webp"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Oppo Reno 10 Pro 5G(Glossy Purple, 256 GB) (12GB RAM)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 35,990</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/oneplus-11-mobiles.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">OnePlus 12R (Iron Gray, 8GB RAM, 128GB Storage)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 39,750</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="card" style="width: 20rem;">
+            <img src="images/smartwatch.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">Fire-Boltt Ring 3 with Bluetooth Calling Chip, Voice Assistance,Heart Rate
+                    Monitoring (Black)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 1,800</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/boatairbuds.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">boAt Airdopes 200 Plus in Ear TWS Earbuds, 100 Hours Playback, Quad Mics ENx
+                    Technology,IPX5(Carbon Black)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 1,600</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/headset.png"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">HP 500 Bluetooth Wireless Over Ear Headphones with Bluetooth, and Up to 20 Hours
+                    Battery Life. 1-Year Warranty</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 2,299</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/laptop.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">ASUS ZenBook Duo 14 UX482 14” FHD NanoEdge Touch Display, Intel Evo Platform,
+                    Core i7-8GB RAM, 512GB PCIe SSD</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 2,05,846</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="card" style="width: 20rem;">
+            <img src="images/Cctv-transp-e1592970900682.webp"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">CP PLUS Bullet Wireless Outdoor Security Camera, 1296P Resolution, Night
+                    VisionIR, Distance of 15 Mtr
+                </h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 2,099</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/remotecontroller.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">ZEBRONICS New Launch Wireless Gamepad, Built-in rechargeable battery, Supports
+                    (Windows,Android)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 2,299</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/speaker.jpeg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h1 class="card-title">pTron Fusion 24W Bluetooth Speaker, Powerful Sound,FM Radio/Aux/TF Card/USB
+                    Playback (Matt Black)</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 1,999</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="images/led tv img.jpg" class="card-img-top"
+                alt="...">
+            <div class="card-body">
+                <h1 class="card-title">VW 109 cm (43 inches) Linux Series Frameless Full HD Smart LED TV (Black) with
+                    Dolby Vision Series Smart Google TV</h1>
+                <h1 class="card-title" style="color:brown; font-size: 28px;">RS 14,990</h1>
+                <button class="button" onclick="abc()">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/advertisement watch img.jpg" alt="" class="img2">
+                </div>
+                <div class="col-3" style="margin-top: -10rem;">
+                    <p style="font-size: 30px;">Exclusively Available on Ecomart</p>
+                    <h1 style="font-size: 60px;">Smart Band 4</h1>
+                    <small style="font-size: 20px;">The Mi Smart Band 4 features a 39.9% larger ()(than Mi Band 3)
+                        AMOLED color full-touch display with adjustable brightness, so everything is clear as can
+                        be.</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cover1">
+        <main class="down1">
+            <img src="images/Shop Smart, Shop Easy.png" alt="" class="images1">
+            <div class="align1">
+                <button class="country"><img src="images/india-flag.jpg" height="18px" style="margin-left: 10px;" alt=""> India
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+                <button class="country"><i class="fa fa-globe" style="font-size: 20px;"></i> English
+                    <i class="fa fa-chevron-down"></i>
+                </button>
+            </div>
+        </main>
+        <div class="containers">
+            <div class="container4">
+                <h4>ABOUT ECOMART</h4>
+                <ul>
+                    <li>Who WE Are</li>
+                    <li>Blog</li>
+                    <li>Work With Us</li>
+                    <li>Investor Relations</li>
+                    <li>Report Fraud</li>
+                    <li>Press Kit</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="container4">
+                <h4>ECOVERSE</h4>
+                <ul>
+                    <li>Ecomart</li>
+                    <li>Coverup</li>
+                    <li>SELLINGS</li>
+                    <li>Hyperpure</li>
+                    <li>Ecoland</li>
+                </ul>
+            </div>
+            <div class="container4">
+                <h4>FOR SELLERS</h4>
+                <ul>
+                    <li>Partner With Us</li>
+                    <li>Apps For You</li>
+                    <li></li>
+                    <h3 style="color: black; cursor: initial;">FOR ENTERPRISES</h3>
+                    <li>Ecomart For Enterprise</li>
+                </ul>
+            </div>
+            <div class="container4">
+                <h4>LEARN MORE</h4>
+                <ul>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                    <li>Terms</li>
+                    <li>Sitemap</li>
+                </ul>
+            </div>
+            <div class="container4">
+                <h4>SOCIAL LINKS</h4>
+                <div class="fa" style="font-size: 15px;">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.linkedin.com/in/chirag-kumar-7704a3257" class="fa fa-linkedin"></a>
+                    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p><small>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+                    Content Policies. All trademarks are properties of their respective owners. 2008- <br>2024 © ecomart
+                    Ltd. All rights reserved. <br> @By Chirag Kumar
+                </small></p>
+        </div>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function (){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 4) {
+                    counter = 1;
+                }
+            }, 3000);
+        </script>
+        <script src="script.js"></script>
+</body>
+
+</html>
